@@ -1,0 +1,80 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file"
+    ],
+    "hash": "33d0665e5d635c25d94b8f3af363f92e",
+    "packages": [
+        {
+            "name": "devco/model",
+            "version": "1.0.x-dev",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/devco/Model.git",
+                "reference": "8428845650e2f84f66e97162c25ec0e3eb743cc6"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/devco/Model/zipball/8428845650e2f84f66e97162c25ec0e3eb743cc6",
+                "reference": "8428845650e2f84f66e97162c25ec0e3eb743cc6",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.4.0"
+            },
+            "require-dev": {
+                "treshugart/testes": "1.0.x-dev"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "Model": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Trey Shugart",
+                    "email": "treshugart@gmail.com",
+                    "homepage": "http://iamtres.com",
+                    "role": "Lead Developer"
+                }
+            ],
+            "description": "Model is a simple, lightweight and easy-to-use Domain Driven Entity framework.",
+            "homepage": "http://github.com/treshugart/Model",
+            "keywords": [
+                "ddd",
+                "design",
+                "domain",
+                "driven",
+                "entities",
+                "entity",
+                "model",
+                "object",
+                "repositories",
+                "repository",
+                "value"
+            ],
+            "time": "2013-09-13 00:57:52"
+        }
+    ],
+    "packages-dev": [
+
+    ],
+    "aliases": [
+
+    ],
+    "minimum-stability": "stable",
+    "stability-flags": {
+        "devco/model": 20
+    },
+    "platform": {
+        "php": ">=5.5.0"
+    },
+    "platform-dev": [
+
+    ]
+}
