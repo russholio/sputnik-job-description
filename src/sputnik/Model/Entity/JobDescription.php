@@ -38,7 +38,7 @@ class JobDescription extends Entity
     function __toString()
     {
         try {
-            return serialize($this);
+            return serialize($this->to());
         } catch(\Exception $e) {
             return '';
         }
