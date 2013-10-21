@@ -13,6 +13,11 @@ class JobDescription extends Entity
     /**
      * @vo Model\Vo\String
      */
+    public $version = '';
+
+    /**
+     * @vo Model\Vo\String
+     */
     public $runCommand = '';
 
     /**
