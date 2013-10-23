@@ -13,7 +13,7 @@ class JobDescription extends Entity
     /**
      * @vo Model\Vo\String
      */
-    public $version = '';
+    public $version = 'dev-master';
 
     /**
      * @vo Model\Vo\String
@@ -21,7 +21,7 @@ class JobDescription extends Entity
     public $runCommand = '';
 
     /**
-     * @vo Model\Vo\Set
+     * @vo Model\Vo\VoSet 'Model\Vo\String'
      */
     public $arguments = [];
 
